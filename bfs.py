@@ -32,8 +32,8 @@ def createResult(result_file, matrix, path):
         result = "None"
         open(result_file, 'w').write(result)
 for i in range(1, 7):
-    testcase_file = 'testcases/testcase{}.txt'.format(i)
-    result_file = 'results/result{}.txt'.format(i)
+    testcase_file = 'testcase{}.txt'.format(i)
+    result_file = 'result{}.txt'.format(i)
     matrix = readFile(testcase_file)
     path = bfs(matrix, (0, 0), 0, 2)
     createResult(result_file, matrix, path)
