@@ -1,0 +1,32 @@
+Mục đích bài tập:
+	- Ôn luyện về cú pháp của python.
+	- Xử lý tạo thưc mục, đọc ghi file.
+	- Củng cố kiến thức về list, queue, stack trong python.
+	- Củng cố kiến thức về thuật toán.
+
+
+Đề bài:
+	Giả sử có 1 ma trận 2 chiều kích thước m,n
+	Có 1 con robo nằm tại tọa độ (0,0), con robo chỉ có thể đi 4 hướng trên dưới trái phải, không thể đi chéo
+	Có 1 cột cờ có giá trị là 2 nằm tại tọa độ (x2,y2)
+	
+	Ví du:
+		1 1 1 1
+		1 1 0 1
+		1 1 0 2
+		0 1 1 1
+	
+	robot ở tọa độ (0,0)
+	cột cờ có giá trị là 2 ở tọa độ (3,2)
+	Cần tìm con đường đi ngắn nhất từ robot đến cột cờ
+	Kết quả:
+		- - - -
+		1 1 0 -
+		1 1 0 2
+		0 1 1 1
+	Trường hợp không có đường đi nào từ robot có thể đi đến cột cờ khi ghi ra file "Nope"
+
+
+Testcase đọc trong thư mục testcase
+Kết quả ghi ra file tương ứng trong thư mục results
+	- testcase1.txt tương ứng với result1.txt
